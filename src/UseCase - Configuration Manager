@@ -1,0 +1,22 @@
+https://chatgpt.com/c/ea68dafa-2754-4723-b524-4fe9bdc0adcd
+Use Case: Configuration Manager
+Scenario:
+You have an application that requires various configuration settings (e.g., database connection details, API keys, etc.).
+These settings need to be loaded once and accessed globally across the application.
+
+This pattern is used to coordinate actions and resources across the system in a controlled and consistent manner.
+
+
+The intuition behind the Singleton Design Pattern is to control the creation of an object to ensure that only
+one instance of the class exists throughout the application's lifecycle.
+
+
+Steps to Implement the Singleton Design Pattern
+1.Create the Singleton Class: Define a class ConfigurationManager with a private constructor, a private static instance, and a public static method to get the instance.
+2.Load Configuration: Add a method to load configuration settings from a file.
+3.Provide Access to Configuration: Add methods to get specific configuration values.
+
+
+The private static instance variable holds the single instance of the class.
+The private constructor prevents direct instantiation from other classes.
+The public static method controls the instantiation process, ensuring that only one instance is created and provides a global access point to this instance.
