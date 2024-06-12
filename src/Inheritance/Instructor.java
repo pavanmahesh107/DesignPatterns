@@ -7,10 +7,17 @@ public class Instructor extends User {
 //        System.out.println("Instructor constructor");
 //    }
 
+    void login(String name){
+        System.out.println("Instructor with name is logging in");
+    }
+
+    void login(){
+        System.out.println("Method from the user class is over ridding Instructor class");
+    }
+
     public static void main(String[] args) {
-        Instructor instructor = new Instructor();
-        instructor.email = "pavanmahesh107@gmai.com";
-        System.out.println("DEBUG");
+        User user = new Instructor();
+        user.login();
 
     }
 

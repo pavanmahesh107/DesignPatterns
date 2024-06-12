@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dac9f668-0463-4d96-9f3e-80c8d3dd5131" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Instructor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.D.executor": "Run",
-    "Application.Instructor.executor": "Debug",
+    "Application.Instructor.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -76,6 +76,7 @@
       <workItem from="1717907706635" duration="1230000" />
       <workItem from="1717908949336" duration="243000" />
       <workItem from="1717909204476" duration="23951000" />
+      <workItem from="1718165429667" duration="3982000" />
     </task>
     <servers />
   </component>
